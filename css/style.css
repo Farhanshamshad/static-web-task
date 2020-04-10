@@ -1,0 +1,217 @@
+/* CSS Document */
+.topbackground
+{
+    display: block;
+    background-image:url(../images/top_O.jpg);
+    background-repeat: repeat-x;
+    height: 18px;
+    width: 100%;
+}
+.main
+{
+    margin: 25px;
+    background-color: #E8E7E5;
+   
+}
+/*************** Main Table Items  *****/
+.maintable
+{
+width: 864px;
+}
+
+/* *****left column*** */
+.leftColumn
+{   
+    width: 289px;
+    background-color: #5DA4DA;
+
+}
+/*********** Middelcolumn ****/
+.MiddleColumn
+{
+    width: 19px;
+    background: url(../images/middleColumn_background.jpg);
+    background-repeat: repeat-y;
+}
+/*************** Right column ****/
+.rightColumn
+{
+    vertical-align: top;
+    width: 554px;
+    background-color: #ffffff;
+}
+/********* Left Table **/
+.lefttable
+{
+    background-image: linear-gradient( to right,rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(../images/profile_pic1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 256px;
+}
+.bluebarcolumn
+{  
+    display: block;
+    margin:20px 0 0 0;
+    width: 61px;
+    vertical-align: top;
+}
+.lefttable td
+{
+    color: white;
+}
+
+.nameHeading{
+    font-size:28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    display: block;
+    margin: 130px 0px 0 18px;
+    }
+    .nameHeadingSmallText{
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+    margin-left:18px;
+    }
+.BlueB
+{
+    color: linen;
+    display: inline-block;
+    padding: 28px 10px 0px 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 28px;
+}
+.line
+{
+    border-top: .5px solid;
+    padding-right: 10px;
+    background-color: #3796bb;
+    border-color:#696868;
+}
+.info
+{
+    color: white;
+}
+.info h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin: 20px 0px 0px 18px;
+    font-size: 20px;
+}
+.info div
+{
+    font-size: 16px;
+    color: rgb(223, 217, 217);
+    font-family: 'Roboto', sans-serif;
+    margin: 4px 0px 28px 18px;
+
+}
+.info h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 20px 0 0 18px;
+    font-size: 20px;
+}
+.info h3
+{
+    margin-left: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*** input type range modification ***/
+.range
+{
+    position: relative;
+    -webkit-appearance: none;
+    background-color: white;
+    margin-left: 18px;
+    width: 80%;
+    border-radius: 10px;
+    height: 3px;
+}
+
+  .range::-webkit-slider-thumb 
+  {
+      -webkit-appearance: none;
+      margin-top: -2px;
+      width: 15px;
+      height: 15px;
+      background-color: white;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+  }
+  
+/***** Righttable ****/
+.iconcolum
+{
+    display: block;
+    margin:25px 0 0 0;
+}
+
+.textcolumn
+{
+    padding: 25px 0 0 30px;
+}
+.textcolumn h1
+{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #76726f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.textcolumn h2
+{
+    margin-top: 25px;
+    font-size: 16px;
+    color: #76726f;
+    font-family: 'Roboto', sans-serif;
+}
+.textcolumn h3
+{
+    margin: 5px 0 5px 0;
+    font-size: 12px;
+    color: #5da4da;
+    font-family: 'Roboto', sans-serif;
+}
+.textcolumn div
+{
+    font-size: 14px;
+    color: #76726f;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 25px;
+    padding-bottom: 20px;
+}
+.textcolumn hr
+{
+    border-top: 1px solid #bdbdbd;
+    background-color: #bdbdbd;
+    padding-right: 10px;
+}
+/*** work portion ***/
+.midbackground
+{
+    background: url(../images/box.jpg);
+    background-repeat: repeat-x;
+}
+.interest
+{
+    width: 35px;
+    height: 30px;
+    margin: 10px 50px 40px 0px;
+}
+ a
+{
+    display: inline-block;
+    padding: 25px 30px 0 0px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #5da4da;
+    font-family: 'Roboto', sans-serif; 
+}
